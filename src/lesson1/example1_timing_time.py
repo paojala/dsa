@@ -1,3 +1,5 @@
+# https://towardsdatascience.com/execution-times-in-python-ed45ecc1bb4d
+
 def test1():
     """Write the code you want to test here. For example:"""
     list1 = [4, 5, 7, 2, 5]
@@ -27,3 +29,8 @@ if __name__ == '__main__':
 
     end = time.time()
     print("time: ", end-beginning, "s")
+
+
+    # Other ways:
+    #   beginning = time.perf_counter_ns()
+    #   end = time.perf_counter_ns()
