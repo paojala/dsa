@@ -16,7 +16,7 @@ if __name__ == '__main__':
     import time
 
     beginning = time.time()
-    for i in range(0,1000000):      # Calls tested function million times
+    for i in range(0,2000000):      # Calls tested function million times
         test1()
 
     end = time.time()
@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
 
     beginning = time.time()
-    for i in range(0,1000000):      # Calls tested function million times
+    for i in range(0,2000000):      # Calls tested function million times
         test2()
 
     end = time.time()
