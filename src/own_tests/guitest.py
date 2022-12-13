@@ -60,6 +60,9 @@ plot_button = tk.Button(master = win,
                      width = 10,
                     text = "Plot")
 
+fig = Figure(figsize = (5, 5),
+                 dpi = 100)
+
 plot_button.pack()
 
 #Canvas

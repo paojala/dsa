@@ -6,7 +6,7 @@ def test1():
 def test2():
     """Write the code you want to test here. For example:"""
     list1 = [4, 5, 7, 2, 5]
-    sorted(list1)
+    list2 = sorted(list1)
 
 
 if __name__ == '__main__':
